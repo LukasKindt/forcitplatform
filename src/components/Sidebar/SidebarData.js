@@ -6,26 +6,32 @@ import * as ImIcons from 'react-icons/im';
 
 export const NavigateData = [
   {
+    title: 'Core',
+    path: '/core/start',
+    icon: <IoIcons.IoDocumentTextOutline />,
+    cName: 'nav-text'
+  },
+  {
     title: 'Foresight',
-    path: '/foresight',
+    path: '/foresight/start',
     icon: <IoIcons.IoDocumentTextOutline />,
     cName: 'nav-text'
   },
   {
     title: 'Insight',
-    path: '/insight',
+    path: '/insight/start',
     icon: <AiIcons.AiTwotoneVideoCamera />,
     cName: 'nav-text'
   },
   {
     title: 'Oversight',
-    path: '/oversight',
+    path: '/oversight/start',
     icon: <FiIcons.FiImage />,
     cName: 'nav-text'
   },
   {
     title: 'Hindsight',
-    path: '/hindsight',
+    path: '/hindsight/start',
     icon: <ImIcons.ImStatsDots />,
     cName: 'nav-text'
   }
@@ -49,12 +55,35 @@ export const SettingsData = [
   },
   {
     title: 'Account Settings',
-    path: '/settings/accountsettings',
+    path: '/settings/account-settings',
     cName: 'set-text'
   },
   {
     title: 'App Settings',
-    path: '/settings/appsettings',
+    path: '/settings/app-settings',
+    cName: 'set-text'
+  }
+];
+
+export const CoreData = [
+  {
+    title: 'Start',
+    path: '/core/start',
+    cName: 'set-text'
+  },
+  {
+    title: 'Transaction',
+    path: '/core/transaction',
+    cName: 'set-text'
+  },
+  {
+    title: 'Administration',
+    path: '/core/administration',
+    cName: 'set-text'
+  },
+  {
+    title: 'Integration',
+    path: '/core/integration',
     cName: 'set-text'
   }
 ];
@@ -66,13 +95,13 @@ export const InsightData = [
     cName: 'pag-text'
   },
   {
-    title: 'Team',
-    path: '/insight/team',
+    title: 'Expert',
+    path: '/insight/expert',
     cName: 'pag-text'
   },
   {
-    title: 'Experts',
-    path: '/insight/experts',
+    title: 'Tools',
+    path: '/insight/tools',
     cName: 'pag-text'
   },
   {
@@ -81,44 +110,54 @@ export const InsightData = [
     cName: 'pag-text'
   },
   {
-    title: 'Platform',
-    path: '/insight/platform',
+    title: 'Asking',
+    path: '/insight/asking',
     cName: 'pag-text'
   }
 ];
 
 export const ForesightData = [
   {
-    title: 'Foresight Tab 1',
-    path: '/foresight/tab1',
+    title: 'Start',
+    path: '/foresight/start',
     cName: 'pag-text'
   },
   {
-    title: 'Foresight Tab 2',
-    path: '/foresight/tab2',
+    title: 'Trajectory',
+    path: '/foresight/trajectory',
     cName: 'pag-text'
   },
   {
-    title: 'Foresight Tab 3',
-    path: '/foresight/tab3',
+    title: 'Manage',
+    path: '/foresight/manage',
+    cName: 'pag-text'
+  },
+  {
+    title: 'Reporting',
+    path: '/foresight/reporting',
+    cName: 'pag-text'
+  },
+  {
+    title: 'Analyse',
+    path: '/foresight/analyse',
     cName: 'pag-text'
   }
 ];
 
 export const OversightData = [
   {
-    title: 'Oversight Tab 1',
-    path: '/oversight/tab1',
+    title: 'Start',
+    path: '/oversight/start',
     cName: 'pag-text'
   },
   {
     title: 'Oversight Tab 2',
-    path: '/oversight/tab2',
+    path: '/oversight/oversight-tab-2',
     cName: 'pag-text'
   },
   {
     title: 'Oversight Tab 3',
-    path: '/oversight/tab3',
+    path: '/oversight/oversight-tab-3',
     cName: 'pag-text'
   },
   {
@@ -130,28 +169,28 @@ export const OversightData = [
 
 export const HindsightData = [
   {
-    title: 'Hindsight Tab 1',
-    path: '/hindsight/tab1',
+    title: 'Start',
+    path: '/hindsight/start',
     cName: 'pag-text'
   },
   {
     title: 'Hindsight Tab 2',
-    path: '/hindsight/tab2',
+    path: '/hindsight/hindsight-tab-2',
     cName: 'pag-text'
   },
   {
     title: 'Hindsight Tab 3',
-    path: '/hindsight/tab3',
+    path: '/hindsight/hindsight-tab-3',
     cName: 'pag-text'
   },
   {
     title: 'Hindsight Tab 4',
-    path: '/hindsight/tab4',
+    path: '/hindsight/hindsight-tab-4',
     cName: 'pag-text'
   },
   {
     title: 'Hindsight Tab 5',
-    path: '/hindsight/tab5',
+    path: '/hindsight/hindsight-tab-5',
     cName: 'pag-text'
   }
 ];
